@@ -39,7 +39,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: dtolnay/rust-toolchain@master
@@ -71,7 +71,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -112,7 +112,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - id: set-matrix
@@ -129,7 +129,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - id: set-matrix
@@ -144,7 +144,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -239,7 +239,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -313,7 +313,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -385,7 +385,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -443,7 +443,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: dtolnay/rust-toolchain@master
         with:
@@ -537,7 +537,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - id: set-matrix
@@ -554,7 +554,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -615,7 +615,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - id: set-matrix
@@ -633,7 +633,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -692,7 +692,7 @@ jobs:
         if: always()
         uses: runforesight/foresight-workflow-kit-action@v1
         with:
-          api-key: ${{ secrets.FORESIGHT_APIKEY }}
+          api_key: ${{ secrets.FORESIGHT_APIKEY }}
 
       - uses: actions/checkout@v3
 
