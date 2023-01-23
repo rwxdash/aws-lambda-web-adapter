@@ -60,7 +60,7 @@ jobs:
           api_key: ${{ secrets.FORESIGHT_APIKEY }}
           test_format: JUNIT
           test_framework: JUNIT
-          test_path: target/nextest/ci/junit.xml
+          test_path: "**/junit.xml"
 
   # build:
   #   if: ${{ github.ref == 'refs/heads/main' || github.event_name == 'release' }}
